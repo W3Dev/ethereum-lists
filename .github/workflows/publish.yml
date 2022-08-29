@@ -25,13 +25,14 @@ jobs:
 
       - name: Publish package on NPM 📦
         run: |
-          echo _auth=$NPM_TOKEN >> .npmrc
+          echo _auth=$NODE_AUTH_TOKEN >> .npmrc
           echo email=$NPM_EMAIL >> .npmrc
           echo always-auth=true >> .npmrc
           cat .npmrc
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_EMAIL: ${{ secrets.NPM_EMAIL }}
 
       - name: Publish package on Github 📦
         run: |
