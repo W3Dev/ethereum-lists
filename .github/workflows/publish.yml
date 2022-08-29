@@ -1,7 +1,9 @@
 name: Publish to NPM
 
 on:
-  push:
+  
+  workflow_dispatch:
+
   release:
     types: [created]
 
