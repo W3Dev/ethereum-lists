@@ -1,0 +1,38 @@
+{
+  "name": "ethereum-lists",
+  "version": "1.0.0",
+  "description": "Ethereum List API",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/w3dev/ethereum-lists.git"
+  },
+  "engines": {
+    "node": "^12.1 || >=12.*"
+  },
+  "keywords": [
+    "ethereum-lists"
+  ],
+  "author": "",
+  "bugs": "https://github.com/w3dev/ethereum-lists/issues",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "json-schema-to-typescript": "^11.0.2",
+    "prettier": "^2.7.1",
+    "sync-fetch": "^0.4.1",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "@types/node": "^18.7.13"
+  }
+}
