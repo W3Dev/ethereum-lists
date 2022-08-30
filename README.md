@@ -1,4 +1,4 @@
-# Etherim Lists
+# Etherium Lists
 
 Curated Ethereum Lists from Javascript Library
 
